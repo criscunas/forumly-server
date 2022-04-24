@@ -1,0 +1,6 @@
+tests.http
+.env
+knexfile.js
+node_modules/
+node_modules/.package-lock.json
+.DS_Store 
