@@ -2,10 +2,14 @@ const knex = require("../db");
 const followingTable = "followings";
 const usersTable = "users";
 
+const findFollow = (obj) => 
+  knex(followingTable)
+  .where(obj)
+  
 const createFollow = (obj) => 
   knex(followingTable)
   .insert(obj)
-
+  
 const createUnfollow = (obj) => 
   knex(followingTable)
   .where(obj)
@@ -40,4 +44,4 @@ const getUserFollowers = (id) =>
   })
   
 
-module.exports = {createFollow, createUnfollow, getUserFollowing, getUserFollowers}
+module.exports = {findFollow, createUnfollow, createFollow, getUserFollowing, getUserFollowers}
