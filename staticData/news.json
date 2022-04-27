@@ -1,0 +1,863 @@
+{
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Slashdot.org"
+      },
+      "author": "EditorDavid",
+      "title": "Should JavaScript Add a New Syntax for Types?",
+      "description": "An interesting tidbit from Mike Melanson's column, \"This Week in Programming.\" \n\n\"If a proposal unveiled this week gets its way, JavaScript developers will soon have something that many of them have long been asking for: a type system, of some sort at least.\"…",
+      "url": "https://developers.slashdot.org/story/22/03/12/0428239/should-javascript-add-a-new-syntax-for-types",
+      "urlToImage": "https://a.fsdn.com/sd/topics/programming_64.png",
+      "publishedAt": "2022-03-12T15:34:00Z",
+      "content": "An interesting tidbit from Mike Melanson's column, \"This Week in Programming.\"\"If a proposal unveiled this week gets its way, JavaScript developers will soon have something that many of them have lon… [+2027 chars]"
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": ".cult",
+      "title": "Still pretending you know the differences between JavaScript and Typescript?",
+      "description": "This article was originally published on .cult by Piumi Gunawardhana. .cult is a Berlin-based community platform for developers. We write about all things career-related, make original documentaries and share heaps of other untold developer stories from aroun…",
+      "url": "https://thenextweb.com/news/differences-between-javascript-and-typescript",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F03%2Fmarkus-spiske-iar-afB0QQw-unsplash.jpg&signature=7f1e3851b3da7106aecc281ffa1babd3",
+      "publishedAt": "2022-03-19T10:00:03Z",
+      "content": "This article was originally published on .cult by Piumi Gunawardhana. .cult is a Berlin-based community platform for developers. We write about all things career-related, make original documentaries … [+7268 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Smashingmagazine.com"
+      },
+      "author": "hello@smashingmagazine.com (Eric Bailey)",
+      "title": "Windows High Contrast Mode, Forced Colors Mode And CSS Custom Properties",
+      "description": "CSS Custom Properties can be used for far more than just color, and their values update in realtime, both via display mode updates and JavaScript logic. This is powerful stuff. Eric explains how modern CSS is a powerful piece of assistive technology that can …",
+      "url": "https://www.smashingmagazine.com/2022/03/windows-high-contrast-colors-mode-css-custom-properties/",
+      "urlToImage": "https://cloud.netlifyusercontent.com/assets/344dbf88-fdf9-42bb-adb4-46f01eedd629/bbb1649b-2b93-4626-851d-5178033d0894/windows-high-contrast-colors-mode-css-custom-properties.jpg",
+      "publishedAt": "2022-03-21T12:30:00Z",
+      "content": "Quick summary \r\nCSS Custom Properties can be used for far more than just color, and their values update in realtime, both via display mode updates and JavaScript logic. This is powerful stuff. Eric e… [+14468 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lexoral.com"
+      },
+      "author": null,
+      "title": "Things you don't need JavaScript for",
+      "description": "Javascript can do a lot, but it's really over-used. HTML and CSS are surprisingly powerful on their own, so let's have a look at some of the things you can achieve without Javascript (or a backend) - from animated diagrams to dark mode.",
+      "url": "https://lexoral.com/blog/you-dont-need-js",
+      "urlToImage": "https://lexoral.com/assets/blog/you-dont-need-js/header.png",
+      "publishedAt": "2022-03-01T10:53:37Z",
+      "content": "Javascript can do a lot, but it's really over-used. HTML and CSS are surprisingly powerful on their own, so let's have a look at some of the things you can achieve without Javascript (or a backend) -… [+20609 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Leafletjs.com"
+      },
+      "author": null,
+      "title": "Leaflet was created 11yrs ago by Vladimir Agafonkin, a Ukrainian citizen in Kyiv",
+      "description": "Leaflet is a modern, lightweight open-source JavaScript library for mobile-friendly interactive maps.",
+      "url": "https://leafletjs.com/index.html",
+      "urlToImage": "docs/images/logo.png",
+      "publishedAt": "2022-03-04T05:27:39Z",
+      "content": "Leaflet was created 11 years ago by Vladimir Agafonkin, an Ukrainian citizen living in Kyiv.\r\nVladimir is no longer in Kyiv, because Russian bombs are falling over the city. His family, his friends, … [+1403 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Github.com"
+      },
+      "author": "262588213843476",
+      "title": "Discord.py returns to the discord bot scene",
+      "description": "GitHub Gist: instantly share code, notes, and snippets.",
+      "url": "https://gist.github.com/Rapptz/c4324f17a80c94776832430007ad40e6",
+      "urlToImage": "https://github.githubassets.com/images/modules/gists/gist-og-image.png",
+      "publishedAt": "2022-03-06T01:00:48Z",
+      "content": "On Resuming discord.py Development\r\nIt's been 6 months since I announced my departure from the ecosystem and a lot has happened during that time.\r\nDuring the last 2 weeks, many contributors and I cam… [+17518 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Github.com"
+      },
+      "author": "wolfgarbe",
+      "title": "SymSpell: 1M times faster spelling correction",
+      "description": "SymSpell: 1 million times faster spelling correction &amp; fuzzy search through Symmetric Delete spelling correction algorithm - GitHub - wolfgarbe/SymSpell: SymSpell: 1 million times faster spelli...",
+      "url": "https://github.com/wolfgarbe/SymSpell",
+      "urlToImage": "https://opengraph.githubassets.com/9f4d487695a91e7573dc1a9a377ab7cc47d8996929cadc9f25e9da93709602e0/wolfgarbe/SymSpell",
+      "publishedAt": "2022-03-06T10:15:40Z",
+      "content": "Spelling correction &amp; Fuzzy search: 1 million times faster through Symmetric Delete spelling correction algorithm\r\nThe Symmetric Delete spelling correction algorithm reduces the complexity of edi… [+25789 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Github.com"
+      },
+      "author": "lf94",
+      "title": "Show HN: I made a mobile-first Prolog editor",
+      "description": "An ergonomic, mobile-first, Prolog playground! Contribute to lf94/paizo-prolog development by creating an account on GitHub.",
+      "url": "https://github.com/lf94/paizo-prolog",
+      "urlToImage": "https://opengraph.githubassets.com/8c7b063d186da6b36c3f561eade5b2d1bc428e75430ba648c0e28b1e1b402f06/lf94/paizo-prolog",
+      "publishedAt": "2022-03-06T22:44:50Z",
+      "content": "Pronounced \"Pay-zo Prolog\".\r\nhttps://lf94.github.io/paizo-prolog/\r\nPaizo is a playground for Prolog users. It's intended to be used for those\r\nquite moments in life where you have a few minutes, or w… [+796 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Digital Trends"
+      },
+      "author": "Fionna Agomuoh",
+      "title": "Use Google Chrome on Mac? You need to update now",
+      "description": "Google Chrome and related browsers have been affected by a high-severity bug that has left the program's JavaScript engine vulnerable to exploits.",
+      "url": "https://www.digitaltrends.com/computing/mac-update-fixes-major-google-chrome-security-hole/",
+      "urlToImage": "https://icdn.digitaltrends.com/image/digitaltrends/delete-chrome-macos.jpg",
+      "publishedAt": "2022-03-28T19:45:10Z",
+      "content": "Google has sent out a necessary update for the Chrome web browser for the Mac to address a major security hole that was discovered on March 23.\r\nThe bug, called CVE-2022-1096, was documented in the C… [+1673 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Github.com"
+      },
+      "author": "skittleson",
+      "title": "Running TypeScript on ESP8266/ESP32 Devices",
+      "description": "Transpile TypeScript to JavaScript for ESP8266/ESP32 microcontrollers template project. Writing safe, maintainable, and testable code is the projects goal. - GitHub - skittleson/ESP-TypeScript: Tra...",
+      "url": "https://github.com/skittleson/ESP-TypeScript",
+      "urlToImage": "https://opengraph.githubassets.com/7d0ed9124c4940f66fa351af81bee3e2f1926197420d38859bff0dafdb128dc7/skittleson/ESP-TypeScript",
+      "publishedAt": "2022-03-03T20:32:12Z",
+      "content": "Transpile TypeScript to JavaScript for ESP8266/ESP32 microcontrollers template project. Writing safe, maintainable, and testable code is the projects goal.\r\nInstall\r\nUsage\r\nAdjust port used in packag… [+609 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Samjulien.com"
+      },
+      "author": "Sam Julien",
+      "title": "The Painfully Shy Developer's Guide to Networking for a Better Job",
+      "description": "Sam Julien is a JavaScript developer and teacher. He loves helping people get their first web development job using Node, Angular, Gatsby, and React.",
+      "url": "https://www.samjulien.com/shy-dev-networking",
+      "urlToImage": "https://www.samjulien.com/static/caa4f6cd995c84b51c41e484e2ebc2e3/3b869/og-developers-guide-to-networking-for-a-better-job.png",
+      "publishedAt": "2022-02-28T01:58:49Z",
+      "content": "Look, I get it. A bunch of web developers, recruiters, and vendors standing around in a room eating pizza or drinking beer and making small talk might sound like complete and utter death for you. The… [+20931 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Juli Clover",
+      "title": "Apple Releases Safari Technology Preview 142 With Bug Fixes and Performance Improvements",
+      "description": "Apple today released a new update for Safari Technology Preview, the experimental browser Apple first introduced in March 2016. Apple designed the ‌Safari Technology Preview‌ to test features that may be introduced into future release versions of Safari.\n\n\n\n\n…",
+      "url": "https://www.macrumors.com/2022/03/23/apple-releases-safari-technology-preview-142/",
+      "urlToImage": "https://images.macrumors.com/t/jHD1aGfXq86Ln_kfzTyWIF68vOo=/2368x/article-new/2021/02/Safari-Technology-Preview-Feature.jpg",
+      "publishedAt": "2022-03-24T00:30:13Z",
+      "content": "Apple today released a new update for Safari Technology Preview, the experimental browser Apple first introduced in March 2016. Apple designed the ‌Safari Technology Preview‌ to test features that ma… [+1041 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Webdesignerdepot.com"
+      },
+      "author": "Simon Sterne",
+      "title": "Quiz: The Surprisingly Difficult JavaScript Quiz",
+      "description": "Alongside HTML and CSS, JavaScript makes up the holy trinity of front-end technologies. JavaScript is cross-platform and object-orientated. You can use it for everything from simple animation to complex server-side operations. JavaScript fell out of fashion a…",
+      "url": "https://www.webdesignerdepot.com/2022/03/quiz-the-surprisingly-difficult-javascript-quiz/",
+      "urlToImage": "https://www.webdesignerdepot.com/cdn-origin/uploads/2022/03/featured_quiz-scaled.jpg",
+      "publishedAt": "2022-03-11T14:45:15Z",
+      "content": "Alongside HTML and CSS, JavaScript makes up the holy trinity of front-end technologies.\r\nJavaScript is cross-platform and object-orientated. You can use it for everything from simple animation to com… [+217 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Central"
+      },
+      "author": "Derrek Lee",
+      "title": "Google Maps outage causing problems for third-party apps, seems to be improving",
+      "description": "Google Maps is experiencing an outage that appears to be affecting the website and third-party applications connected to the Google Maps platform. Google is looking into the matter.",
+      "url": "https://www.androidcentral.com/google-maps-outage",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/9GL4Mg3ygQwhPStNNWtfNE-1200-80.jpg",
+      "publishedAt": "2022-03-18T18:05:49Z",
+      "content": "<ul><li>Google Maps is currently experiencing an outage.</li><li>The outage seems to primarily affect maps on the web and with apps integrating with the Maps API.</li><li>Google appears aware of the … [+1596 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hackaday"
+      },
+      "author": "Jenny List",
+      "title": "The Noble Effort to Put OpenSCAD in the Browser",
+      "description": "In a world of CAD packages with arcane or unfriendly interfaces there’s a stand-out player that’s remarkable because it has no interface. OpenSCAD is a CAD package for coders, in …read more",
+      "url": "https://hackaday.com/2022/03/14/the-noble-effort-to-put-openscad-in-the-browser/",
+      "urlToImage": "https://hackaday.com/wp-content/uploads/2022/03/openscad-browser-featured.jpg",
+      "publishedAt": "2022-03-14T11:00:47Z",
+      "content": "In a world of CAD packages with arcane or unfriendly interfaces there’s a stand-out player that’s remarkable because it has no interface. OpenSCAD is a CAD package for coders, in which all design ele… [+1849 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Entrepreneur"
+      },
+      "author": "Entrepreneur Store",
+      "title": "Get a Beginner-Friendly Coding Education Online",
+      "description": "Get 10 coding courses for $29.",
+      "url": "https://www.entrepreneur.com/article/422579",
+      "urlToImage": "https://assets.entrepreneur.com/content/3x2/2000/1647615612-Ent-Coding101.jpeg",
+      "publishedAt": "2022-03-22T18:30:00Z",
+      "content": "Many of the most in-demand skills in the marketplace this year have something to do with coding. You can bet that's going to remain true for years to come, as well. Whether you're looking for a way t… [+1620 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Entrepreneur"
+      },
+      "author": "Entrepreneur Store",
+      "title": "Hire, Get Hired, and Earn Revenue with This Job Board",
+      "description": "Niceboard is the job board that pays you.",
+      "url": "https://www.entrepreneur.com/article/421953",
+      "urlToImage": "https://assets.entrepreneur.com/content/3x2/2000/1646929088-Ent-Niceboard.jpeg",
+      "publishedAt": "2022-03-16T17:30:00Z",
+      "content": "Despite the barriers to starting a business being lower than ever, it's still difficult to find the right talent for your company or, on the flip side, find your dream job. Hiring (or getting hired) … [+1675 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Factorialhr.com"
+      },
+      "author": null,
+      "title": "Hooks Considered Harmful",
+      "description": "React hooks changed radically how we build frontend applications allowing engineers to separate stateful logic from rendering. But under a seemingly simple API there are some aspects of React hooks that are the source of bugs and performance issues. In this a…",
+      "url": "https://labs.factorialhr.com/posts/hooks-considered-harmful",
+      "urlToImage": "https://labs.factorialhr.com/images/downloaded/cover/b5fb9d47-93e4-4d0d-9a92-3652474bbf4f.jpg",
+      "publishedAt": "2022-03-21T12:11:29Z",
+      "content": "Oh, hooks!... I still remember seeing the presentation in 2018 when Sophie Alpert and Dan Abramov introduced them at React Conf. I was blown away, well, everybody was. It was such an innovative API t… [+11764 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hackaday"
+      },
+      "author": "Tom Nardi",
+      "title": "Web Serial Terminal Means It’s Always Hacking Time",
+      "description": "Arguably one of the most important pieces of software to have in your hardware hacking arsenal is a nice serial terminal emulator. There’s plenty of choice out there, from classic command lin…",
+      "url": "https://hackaday.com/2022/03/21/web-serial-terminal-means-its-always-hacking-time/",
+      "urlToImage": "https://hackaday.com/wp-content/uploads/2022/03/serialterm_feat.png",
+      "publishedAt": "2022-03-22T02:00:22Z",
+      "content": "Arguably one of the most important pieces of software to have in your hardware hacking arsenal is a nice serial terminal emulator. There’s plenty of choice out there, from classic command line tools … [+1742 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Github.com"
+      },
+      "author": "riscv",
+      "title": "RISC-V J extension – Instructions for JITs",
+      "description": "Working Draft of the RISC-V J Extension Specification - GitHub - riscv/riscv-j-extension: Working Draft of the RISC-V J Extension Specification",
+      "url": "https://github.com/riscv/riscv-j-extension",
+      "urlToImage": "https://opengraph.githubassets.com/1bb5092edcee2839b068918637213a61dead512052c4427ced33333c0d708d85/riscv/riscv-j-extension",
+      "publishedAt": "2022-03-11T22:58:03Z",
+      "content": "The RISC-V J extension aims to make RISC-V an attractive target for languages that are traditionally interpreted or JIT compiled, or which require large runtime libraries or language- level virtual m… [+1267 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hackaday"
+      },
+      "author": "Ryan Flowers",
+      "title": "Great Computer Hacks Make Hackers Hacker Computers",
+      "description": "In the year 1995, computers were, well… boring. The future wasn’t here yet, and computers were drab, chunky beige boxes. Sure, there were some cool-ish computers being sold, but the …read more",
+      "url": "https://hackaday.com/2022/03/18/great-computer-hacks-make-hackers-hacker-computers/",
+      "urlToImage": "https://hackaday.com/wp-content/uploads/2022/03/zer0coolputer-featured.jpg",
+      "publishedAt": "2022-03-19T02:00:20Z",
+      "content": "In the year 1995, computers were, well… boring. The future wasn’t here yet, and computers were drab, chunky beige boxes. Sure, there were some cool-ish computers being sold, but the landscape was sti… [+1672 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Android Central"
+      },
+      "author": "chris.wedel@futurenet.com (Chris Wedel)",
+      "title": "Chrome reaches new speed milestone, tops all browsers on Macs — even Safari",
+      "description": "Google highlights a new speed milestone for Chrome on Mac computers as well as improved performance on Android phones with the latest release.",
+      "url": "https://www.androidcentral.com/chrome-tops-safari-speed-mac",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/LNdc2UAY9mxhWQJ7Nm4YyZ-1200-80.jpg",
+      "publishedAt": "2022-03-07T22:25:31Z",
+      "content": "<ul><li> Chrome is now seven percent faster than Safari on Macs in its most recent release.</li><li> Out of over 300 browsers tested by Apple, Chrome on Mac received the highest score.</li><li>Androi… [+1728 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "China's has faced 'continuous' cyber attacks from the United States -Xinhua - Reuters.com",
+      "description": "China has since February faced continuous cyber attacks in which overseas actors took control of computers in the country to target Russia, Ukraine and Belarus, and most of these attacks originated in the United States, state news agency Xinhua said.",
+      "url": "https://www.reuters.com/technology/chinas-has-faced-continuous-cyber-attacks-united-states-xinhua-2022-03-11/",
+      "urlToImage": "https://www.reuters.com/resizer/esEme4FTdsFM9hAIaoMZD0oNxCw=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/UMHLWRT4WZOYTFYHL7URUCG4OY.jpg",
+      "publishedAt": "2022-03-11T05:17:00Z",
+      "content": "SHANGHAI, March 11 (Reuters) - China has since February faced continuous cyber attacks in which overseas actors took control of computers in the country to target Russia, Ukraine and Belarus, and mos… [+467 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "U.S. charges 4 Russian government officials over two prior hacking campaigns - Reuters.com",
+      "description": "The U.S. unveiled criminal charges against four Russian government officials on Thursday, saying that between 2012 and 2018 they engaged in two major hacking campaigns that targeted the global energy sector and impacted thousands of computers across 135 count…",
+      "url": "https://www.reuters.com/technology/us-charges-4-russian-government-officials-over-two-prior-hacking-campaigns-2022-03-24/",
+      "urlToImage": "https://www.reuters.com/resizer/-WSnR6nb_l8JP4EaaaacV70RKuk=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/SWADDY3BVROBZC4AUX52R33TYI.jpg",
+      "publishedAt": "2022-03-24T20:59:00Z",
+      "content": "WASHINGTON, March 24 (Reuters) - The U.S. unveiled criminal charges against four Russian government officials on Thursday, saying that between 2012 and 2018 they engaged in two major hacking campaign… [+1793 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "James Vincent",
+      "title": "Google is buying the cybersecurity company that uncovered the SolarWinds hack",
+      "description": "Google has bought Mandiant, a cybersecurity company best known for uncovering the SolarWinds hack, for $5.4 billion. Microsoft had previously been rumored as a potential buyer for Mandiant.",
+      "url": "https://www.theverge.com/2022/3/8/22966907/google-buying-mandiant-cybersecurity-outfit-5-4-billion",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/zecX0cPldoJGxd8xivCIx07sXlA=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/10745895/acastro_180427_1777_0001.jpg",
+      "publishedAt": "2022-03-08T12:04:06Z",
+      "content": "Google is buying Mandiant for $5.4 billion\r\nIllustration by Alex Castro / The Verge\r\nGoogle is buying cybersecurity company Mandiant in an all-cash transaction valued at approximately $5.4 billion. \r… [+1878 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "VentureBeat"
+      },
+      "author": "VB Staff",
+      "title": "Report: Quantum computers are now better equipped to solve optimization issues",
+      "description": "Until now, it was unknown how much quantum computers had improved at optimization tasks given the rapid development of powerful hardware.",
+      "url": "https://venturebeat.com/2022/03/24/report-quantum-computers-are-now-better-equipped-to-solve-optimization-issues/",
+      "urlToImage": "https://venturebeat.com/wp-content/uploads/2022/03/GettyImages-605383559-e1646346568847.jpg?w=1200&strip=all",
+      "publishedAt": "2022-03-24T14:40:00Z",
+      "content": "Did you miss a session at the Data Summit? Watch On-Demand Here.\r\nIts widely known that quantum computers are well suited for solving optimization problems, an application which is a front-runner for… [+2272 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "New York Times"
+      },
+      "author": "John Markoff",
+      "title": "Why This Silicon Valley Prophet Says He’s Still an Optimist",
+      "description": "Stewart Brand coined the term “personal computer” and was one of the first to envision what digital technology would become. He knows it got messy. He thinks tech can clean itself up.",
+      "url": "https://www.nytimes.com/2022/03/23/technology/stewart-brand-tech-personal-computer.html",
+      "urlToImage": "https://static01.nyt.com/images/2022/03/21/business/21BRAND-lede/21BRAND-lede-facebookJumbo.jpg",
+      "publishedAt": "2022-03-23T09:00:19Z",
+      "content": "In 2005, Mr. Jobs gave a commencement address at Stanford, cited Mr. Brand as a major influence in his life and explained what Whole Earth was to a younger generation: It was sort of like Google in p… [+2043 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Slashdot.org"
+      },
+      "author": "BeauHD",
+      "title": "US Extradites REvil Ransomware Member To Stand Trial For Kaseya Attack",
+      "description": "The U.S. Department of Justice announced that alleged REvil ransomware affiliate, Yaroslav Vasinskyi, was extradited to the United States last week to stand trial for the Kaseya cyberattack. BleepingComputer reports: Vasinkyi, a 22-year-old Ukrainian national…",
+      "url": "https://yro.slashdot.org/story/22/03/11/2221248/us-extradites-revil-ransomware-member-to-stand-trial-for-kaseya-attack",
+      "urlToImage": "https://a.fsdn.com/sd/topics/crime_64.png",
+      "publishedAt": "2022-03-11T23:20:00Z",
+      "content": "The U.S. Department of Justice announced that alleged REvil ransomware affiliate, Yaroslav Vasinskyi, was extradited to the United States last week to stand trial for the Kaseya cyberattack. Bleeping… [+1452 chars]"
+    },
+    {
+      "source": {
+        "id": "reuters",
+        "name": "Reuters"
+      },
+      "author": null,
+      "title": "Singapore sanctions Russia over 'unprovoked attack' on Ukraine - Reuters.com",
+      "description": "Singapore announced sanctions against Russia on Saturday that include four banks and an export ban on electronics, computers and military items, in a rare move by the Asian financial hub in response to what it said was Moscow's \"dangerous precedent\" in Ukrain…",
+      "url": "https://www.reuters.com/world/asia-pacific/singapore-sanctions-russia-over-unprovoked-attack-ukraine-2022-03-05/",
+      "urlToImage": "https://www.reuters.com/resizer/0eqs30nVAzKj9B79jbjBiv2a91k=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/CXFO3QHWFNPYDCPLH2DHXNTJ7Y.jpg",
+      "publishedAt": "2022-03-05T04:46:00Z",
+      "content": "SINGAPORE, March 5 (Reuters) - Singapore announced sanctions against Russia on Saturday that include four banks and an export ban on electronics, computers and military items, in a rare move by the A… [+1945 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Entrepreneur"
+      },
+      "author": "Mark Krupnik",
+      "title": "The Next Trillion-Dollar Business You Haven't Read About Yet",
+      "description": "New technology has already been adopted across every industry.",
+      "url": "https://www.entrepreneur.com/article/419211",
+      "urlToImage": "https://assets.entrepreneur.com/content/3x2/2000/1647445441-GettyImages-1331215115.jpg",
+      "publishedAt": "2022-03-16T16:15:00Z",
+      "content": "The commonly accepted definition of artificial intelligence (AI) is the capability of a computer to decide without human intervention. Lets think about this for a moment: If I taught a computer that … [+4891 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hackaday"
+      },
+      "author": "Jenny List",
+      "title": "An Old Typewriter Speaks To The World",
+      "description": "Typewriters are something which was once ubiquitous, yet which abruptly faded away and are now a rare sight. There was a period of a few years in which electric typewriters and computers existed si…",
+      "url": "https://hackaday.com/2022/03/17/an-old-typewriter-speaks-to-the-world/",
+      "urlToImage": "https://hackaday.com/wp-content/uploads/2022/03/gdr-tpewriter-featured.jpg",
+      "publishedAt": "2022-03-17T08:00:24Z",
+      "content": "Typewriters are something which was once ubiquitous, yet which abruptly faded away and are now a rare sight. There was a period of a few years in which electric typewriters and computers existed side… [+785 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Hackaday"
+      },
+      "author": "Al Williams",
+      "title": "Mustool Scopemeter Review and Teardown",
+      "description": "There was a time when calculators became so powerful it was hard to tell them from little computers. The same thing seems to be happening now with multimeters. They now often have large screens and…",
+      "url": "https://hackaday.com/2022/03/15/mustool-scopemeter-review-and-teardown/",
+      "urlToImage": "https://hackaday.com/wp-content/uploads/2022/03/scope.png",
+      "publishedAt": "2022-03-15T23:00:57Z",
+      "content": "There was a time when calculators became so powerful it was hard to tell them from little computers. The same thing seems to be happening now with multimeters. They now often have large screens and b… [+1763 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gizmodo.com"
+      },
+      "author": "Florence Ion",
+      "title": "Your iPhone and iPad Could Be Your Next Subscription",
+      "description": "In the future, you don’t own anything—maybe not even your iPhone or iPad. Read more...",
+      "url": "https://gizmodo.com/your-iphone-and-ipad-could-be-your-next-subscription-1848699429",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/b0b5630150de07410976826ed3fa6851.jpg",
+      "publishedAt": "2022-03-24T19:00:00Z",
+      "content": "In the future, you dont own anythingmaybe not even your iPhone or iPad. \r\nBloomberg reports that Apple is working on a monthly subscription service for the iPhone and other hardware, including the iP… [+2372 chars]"
+    },
+    {
+      "source": {
+        "id": "business-insider",
+        "name": "Business Insider"
+      },
+      "author": "sacevedo@insider.com (Sophia Acevedo)",
+      "title": "BankPlus review: Southeast US brick-and-mortar bank with solid interest rates on CDs",
+      "description": "BankPlus is a regional bank in the Southeast US. As a certified community development financial institution, it also serves disadvantaged communities.",
+      "url": "https://www.businessinsider.com/personal-finance/bankplus-review",
+      "urlToImage": "https://i.insider.com/62349ab5683ded0019d24a36?width=1200&format=jpeg",
+      "publishedAt": "2022-03-21T15:57:06Z",
+      "content": "Personal Finance Insider writes about products, strategies, and tips to help you make smart decisions with your money. We may receive a small commission from our partners, like American Express, but … [+6802 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Entrepreneur"
+      },
+      "author": "Entrepreneur Store",
+      "title": "Get a Beginner-Friendly Coding Education Online",
+      "description": "Get 10 coding courses for $29.",
+      "url": "https://www.entrepreneur.com/article/422579",
+      "urlToImage": "https://assets.entrepreneur.com/content/3x2/2000/1647615612-Ent-Coding101.jpeg",
+      "publishedAt": "2022-03-22T18:30:00Z",
+      "content": "Many of the most in-demand skills in the marketplace this year have something to do with coding. You can bet that's going to remain true for years to come, as well. Whether you're looking for a way t… [+1620 chars]"
+    },
+
+    {
+      "source": {
+        "id": null,
+        "name": "Lever.co"
+      },
+      "author": null,
+      "title": "Jerry (YC S17) Is Hiring Engineering Manager, Software Development",
+      "description": "Jerry, ranked by LinkedIn as one of the Top 50 technology startups, is expanding our engineering team! We’d love to hear from you if you are looking for a tech company with the following: - Huge market ($800 billion market size), we are building the fir…",
+      "url": "https://jobs.lever.co/getjerry/4290d136-b59c-49d7-83c2-1f1f71f57e4c",
+      "urlToImage": "https://lever-client-logos.s3.us-west-2.amazonaws.com/636ce6d4-69a0-4b6e-80cd-c4878918f7d1-1625421560359.png",
+      "publishedAt": "2022-03-11T01:01:14Z",
+      "content": "Wed love to hear from you if you are looking for a tech company with the following:\r\n- Huge market ($800 billion market size), we are building the first AI-powered super app to help people own a car;… [+3055 chars]"
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "The Conversation",
+      "title": "The quantum tech arms race is bringing us better AI and unhackable comms",
+      "description": "Quantum technology, which makes use of the surprising and often counterintuitive properties of the subatomic universe, is revolutionizing the way information is gathered, stored, shared, and analyzed. The commercial and scientific potential of the quantum rev…",
+      "url": "https://thenextweb.com/news/quantum-tech-arms-race-bringing-us-better-ai-unhackable-comms",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/neural?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F03%2Fvriuw.jpg&signature=b5c3eff22090df30c2826d7b023f28fc",
+      "publishedAt": "2022-03-29T15:21:36Z",
+      "content": "Quantum technology, which makes use of the surprising and often counterintuitive properties of the subatomic universe, is revolutionizing the way information is gathered, stored, shared, and analyzed… [+5507 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Github.com"
+      },
+      "author": "lf94",
+      "title": "Show HN: I made a mobile-first Prolog editor",
+      "description": "An ergonomic, mobile-first, Prolog playground! Contribute to lf94/paizo-prolog development by creating an account on GitHub.",
+      "url": "https://github.com/lf94/paizo-prolog",
+      "urlToImage": "https://opengraph.githubassets.com/8c7b063d186da6b36c3f561eade5b2d1bc428e75430ba648c0e28b1e1b402f06/lf94/paizo-prolog",
+      "publishedAt": "2022-03-06T22:44:50Z",
+      "content": "Pronounced \"Pay-zo Prolog\".\r\nhttps://lf94.github.io/paizo-prolog/\r\nPaizo is a playground for Prolog users. It's intended to be used for those\r\nquite moments in life where you have a few minutes, or w… [+796 chars]"
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "Abhimanyu Ghoshal",
+      "title": "Who Is policing the location data industry?",
+      "description": "By: Alfred Ng and Jon Keegan There is an estimated $12 billion market of companies that buy and sell location data collected from your cellphone. And the trade is entirely legal in the U.S. Without legislation limiting the location data trade, Apple and Googl…",
+      "url": "https://thenextweb.com/news/who-is-policing-the-location-data-industry",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F03%2FWho-is-Policing-the-Location-Data-Industry-hed.jpg&signature=f380288b361679789133c45e82c5f8dc",
+      "publishedAt": "2022-03-13T11:00:46Z",
+      "content": "By: Alfred Ng and Jon Keegan\r\nThere is an estimated $12 billion market of companies that buy and sell location data collected from your cellphone. And the trade is entirely legal in the U.S.\r\nWithout… [+10453 chars]"
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "The Conversation",
+      "title": "New US rules on sharing healthcare research data are a giant leap for open science",
+      "description": "Starting on Jan. 25, 2023, many of the 2,500 institutions and 300,000 researchers that the U.S. National Institutes of Health supports will need to provide a formal, detailed plan for publicly sharing the data generated by their research. For many in the scie…",
+      "url": "https://thenextweb.com/news/new-us-rules-on-sharing-healthcare-research-data-are-a-giant-leap-for-open-science",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/tnw?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F03%2Fhealthcare-research-data.jpg&signature=50161d94f1bff8274fdb52542bf63bfe",
+      "publishedAt": "2022-03-25T13:00:15Z",
+      "content": "Starting on Jan. 25, 2023, many of the 2,500 institutions and 300,000 researchers that the U.S. National Institutes of Health supports will need to provide a formal, detailed plan for publicly sharin… [+6620 chars]"
+    },
+    {
+      "source": {
+        "id": "the-next-web",
+        "name": "The Next Web"
+      },
+      "author": "The Conversation",
+      "title": "Want to know when the pandemic will be over? Computer science may have the answer",
+      "description": "In early 2022, nearly two years after Covid was declared a pandemic by the World Health Organization, experts are mulling a big question: when is a pandemic “over”? So, what’s the answer? What criteria should be used to determine the “end” of Covid’s pandemic…",
+      "url": "https://thenextweb.com/news/when-pandemic-will-be-over-computer-science-may-have-answer",
+      "urlToImage": "https://img-cdn.tnwcdn.com/image/neural?filter_last=1&fit=1280%2C640&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2022%2F03%2Fcovid.jpeg&signature=903ded05f63d700d2418b11891001638",
+      "publishedAt": "2022-03-26T16:46:21Z",
+      "content": "In early 2022, nearly two years after Covid was declared a pandemic by the World Health Organization, experts are mulling a big question: when is a pandemic over?\r\nSo, whats the answer? What criteria… [+6853 chars]"
+    },
+    {
+      "source": {
+        "id": "ign",
+        "name": "IGN"
+      },
+      "author": "Joe Skrebels",
+      "title": "Abandoned Director Explains Tweet Takedowns, and How the Prologue Is a Whole Separate Game - IGN",
+      "description": "The director of controversial indie game Abandoned has reiterated that it has not been cancelled, and said more content will come this year – including the game's Prologue, which will be a paid, standalone project.",
+      "url": "https://www.ign.com/articles/abandoned-interview-prologue-standalone-not-cancelled",
+      "urlToImage": "https://assets-prd.ignimgs.com/2022/04/04/untitled-3-1624363590106-1629290809022-1649084377995.jpg?width=1280",
+      "publishedAt": "2022-04-04T23:05:04Z",
+      "content": "Hasan Kahraman, director of controversial indie game Abandoned, has reiterated that it has not been canceled, and said more content will come this year including the game's Prologue, which will be a … [+5095 chars]"
+    },
+    {
+      "source": {
+        "id": "ars-technica",
+        "name": "Ars Technica"
+      },
+      "author": "Samuel Axon",
+      "title": "App lets you crank the new MacBook Pro’s brightness to over 1,000 nits - Ars Technica",
+      "description": "It has a few caveats, but it works as advertised.",
+      "url": "https://arstechnica.com/gadgets/2022/04/app-lets-you-crank-the-new-macbook-pros-brightness-to-over-1000-nits/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2022/04/Vivid-macOS-760x380.jpg",
+      "publishedAt": "2022-04-04T21:11:10Z",
+      "content": "22 with 20 posters participating\r\nVivid on a MacBook Pro and Pro Display XDR.\r\nDevelopers Jordi Bruin and Ben Harraway have released an application called Vivid that allows Apple's new MacBook Pro mo… [+2669 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Lifehacker.com"
+      },
+      "author": "Khamosh Pathak",
+      "title": "These Windows Apps Are Outdated, Risky, or Scammy - Lifehacker",
+      "description": "It's time for a Windows app audit—here's what you should remove.",
+      "url": "https://lifehacker.com/these-windows-apps-are-outdated-risky-or-scammy-1848707239",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/eabb254cb2c8d17e8ec7375aaf9ef580.jpg",
+      "publishedAt": "2022-04-04T20:30:00Z",
+      "content": "Every computer develops some cruft over time: the small app you installed years ago and forgot about, or a cleaning utility you downloaded when you wanted to free up some space, but is still running … [+3750 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Github.com"
+      },
+      "author": "deepmind",
+      "title": "Restoring and attributing ancient texts using deep neural networks",
+      "description": "Restoring and attributing ancient texts using deep neural networks - GitHub - deepmind/ithaca: Restoring and attributing ancient texts using deep neural networks",
+      "url": "https://github.com/deepmind/ithaca",
+      "urlToImage": "https://opengraph.githubassets.com/e666f44ff74e82edbc474a255d71be13a14344424753f169b6b0386cfe0fa048/deepmind/ithaca",
+      "publishedAt": "2022-03-10T13:39:25Z",
+      "content": "Yannis Assael1,*, Thea Sommerschield2,3,*, Brendan Shillingford1, Mahyar Bordbar1, John Pavlopoulos4,\r\nMarita Chatzipanagiotou4, Ion Androutsopoulos4, Jonathan Prag3, Nando de Freitas1\r\n1 DeepMind, U… [+4057 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Github.com"
+      },
+      "author": "Picovoice",
+      "title": "DeepSpeech 60x Smaller, 9x faster, and 2x accuracy",
+      "description": "On-device speech-to-text engine powered by deep learning  - GitHub - Picovoice/leopard: On-device speech-to-text engine powered by deep learning",
+      "url": "https://github.com/Picovoice/leopard",
+      "urlToImage": "https://opengraph.githubassets.com/6f7d052123926e554071cd4576fe4897a02bbd597d6e6db6bebb880360f179c1/Picovoice/leopard",
+      "publishedAt": "2022-03-09T15:51:20Z",
+      "content": "Made in Vancouver, Canada by Picovoice\r\nLeopard is an on-device speech-to-text engine. Leopard is:\r\n<ul><li>Private; All voice processing runs locally.</li><li>Accurate [1]</li><li>Compact and Comput… [+12129 chars]"
+    },
+    {
+      "source": {
+        "id": "ign",
+        "name": "IGN"
+      },
+      "author": "Eric Song",
+      "title": "Daily Deals: Price Drops on LG C1 4K OLED TVs, Save on Apple AirPods Pro and Apple Watch 7, Razer, Alienware, and More - IGN - IGN",
+      "description": null,
+      "url": "https://www.ign.com/articles/daily-deals-apple-airpods-pro-lg-oled-c1-4k-tv",
+      "urlToImage": "https://assets-prd.ignimgs.com/2022/04/04/lgoledgamingtv-1649096607195.jpg?width=1280",
+      "publishedAt": "2022-04-04T19:44:28Z",
+      "content": "Today, Amazon has dropped the prices yet again on the LG C1 4K OLED TVs. Pick up the 48\" model to use as the ultimate PC gaming monitor or pay just $100 for the 55\" model for your PS5 and Xbox Series… [+8578 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nintendo Life"
+      },
+      "author": "Kate Gray",
+      "title": "Soapbox: The Video Game Camaraderie On r/place Is A Lesson About Community - Nintendo Life",
+      "description": "We are all amogus",
+      "url": "https://www.nintendolife.com/features/soapbox-the-video-game-camaraderie-on-rplace-is-a-lesson-about-community",
+      "urlToImage": "https://images.nintendolife.com/fa732c04bc6a1/1280x720.jpg",
+      "publishedAt": "2022-04-04T19:30:00Z",
+      "content": "Soapbox articles give our team a chance to share some personal perspectives. Kate's been keeping an eye on a Reddit art project for the last few days, and has some warm fuzzy feelings to share...\r\nDi… [+4748 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Alice Newcome-Beill",
+      "title": "Apple's AirPods are currently matching their lowest prices ever at Amazon and Walmart - The Verge",
+      "description": "Amazon is currently serving up some great deals today on Apple’s AirPods lineup and offering a free game when you buy two of equal or greater value. Some other highlights today include sales on the LG C1 OLED, Sony’s WF-1000XM3 earbuds, and an excellent 1080p…",
+      "url": "https://www.theverge.com/good-deals/2022/4/4/23009765/apple-airpods-pro-lg-c1-oled-tv-macbook-air-laptop-sony-wf-1000xm3-earbuds-deal-sale",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/LkMPRSMRNHGspL9xe3rGP-LgI0A=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/19336099/cwelch_191031_3763_0003.jpg",
+      "publishedAt": "2022-04-04T19:06:54Z",
+      "content": "Amazon is also giving you a free game when you buy two of equal or greater value\r\nIf you buy something from a Verge link, Vox Media may earn a commission. See our ethics statement.\r\nApples second-gen… [+8567 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Pinkbike.com"
+      },
+      "author": null,
+      "title": "Intense Releases 2022 Tracer 279 - Pinkbike.com",
+      "description": "The new mixed-wheel Tracer has 170mm of travel and an in-frame storage compartment.",
+      "url": "https://www.pinkbike.com/news/2022-intense-tracer-279-release.html",
+      "urlToImage": "https://ep1.pinkbike.org/p4pb22321155/p4pb22321155.jpg",
+      "publishedAt": "2022-04-04T18:24:59Z",
+      "content": "Intense have never done things by the book or followed the status quo. Marching to the beat of their own drum, Intense invited me to ride Chris Kovarik's personal Tracer 279 for a First Ride, well be… [+3629 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Github.com"
+      },
+      "author": "marciot",
+      "title": "MiniVNC Remote Desktop Server for Vintage Macintosh Computers",
+      "description": "A VNC remote desktop server for vintage Macintosh computers, including the Mac Plus. - GitHub - marciot/mac-minivnc: A VNC remote desktop server for vintage Macintosh computers, including the Mac P...",
+      "url": "https://github.com/marciot/mac-minivnc",
+      "urlToImage": "https://opengraph.githubassets.com/1a53fa977b087e5a039fa6833985a4c4ad092cdad70ff8e26174136d4662825f/marciot/mac-minivnc",
+      "publishedAt": "2022-03-08T13:35:39Z",
+      "content": "MiniVNC is a remote desktop server that has been written from the\r\nground up for best performance on 68k Macintosh computers.It was originally an experiment to see whether a Macintosh Plus could\r\nbe … [+11690 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Github.com"
+      },
+      "author": "riscv",
+      "title": "RISC-V J extension – Instructions for JITs",
+      "description": "Working Draft of the RISC-V J Extension Specification - GitHub - riscv/riscv-j-extension: Working Draft of the RISC-V J Extension Specification",
+      "url": "https://github.com/riscv/riscv-j-extension",
+      "urlToImage": "https://opengraph.githubassets.com/1bb5092edcee2839b068918637213a61dead512052c4427ced33333c0d708d85/riscv/riscv-j-extension",
+      "publishedAt": "2022-03-11T22:58:03Z",
+      "content": "The RISC-V J extension aims to make RISC-V an attractive target for languages that are traditionally interpreted or JIT compiled, or which require large runtime libraries or language- level virtual m… [+1267 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Github.com"
+      },
+      "author": "OmarShehata",
+      "title": "Interactively edit individual DCT blocks in any JPEG image in the browser",
+      "description": "Interactively edit individual DCT blocks in any JPEG image in the browser. - GitHub - OmarShehata/jpeg-sandbox: Interactively edit individual DCT blocks in any JPEG image in the browser.",
+      "url": "https://github.com/OmarShehata/jpeg-sandbox",
+      "urlToImage": "https://opengraph.githubassets.com/e10903b241fa2c3384d5ea7e7a6c348c5ae34685ba7c1f1933f3e8acf01c2ba1/OmarShehata/jpeg-sandbox",
+      "publishedAt": "2022-03-08T01:53:27Z",
+      "content": "This is a very barebones editor that supports clicking on any pixel in a JPEG image to see the 64 DCT coefficients that make up that 8x8 block. Each individual coefficient can be edited through text.… [+741 chars]"
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Toussaint Egan",
+      "title": "Citizen Sleeper, new sci-fi RPG, set for Xbox, PC, Switch release - Polygon",
+      "description": "Citizen Sleeper, the turn-based, narrative RPG from In Other Waters developer Jump Over The Age, will be available on Xbox Series X|S, PC, Mac, and Nintendo Switch.",
+      "url": "https://www.polygon.com/gaming/23010207/citizen-sleeper-release-xbox-switch-pc-in-other-waters",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/fC2a3M0ZXzoGydkFSfx7DX-VXTE=/0x25:1243x676/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23366729/1.jpg",
+      "publishedAt": "2022-04-04T18:00:43Z",
+      "content": "The turn-based, narrative RPG will be available on Xbox Series X|S, PC, Mac, and Nintendo Switch."
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Kotaku"
+      },
+      "author": "Ari Notis",
+      "title": "Players Stock Up On PS Now Subs To Save Big On New PS Plus - Kotaku",
+      "description": "PS Now subscriptions automatically convert to PlayStation Plus Premium",
+      "url": "https://kotaku.com/playstation-plus-premium-ps-now-one-year-subscription-d-1848746564",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/3ec57cdcd0f34c655eb0229ebb5c5a03.jpg",
+      "publishedAt": "2022-04-04T18:00:00Z",
+      "content": "When Sonys revamped version of PS Plus launches in June, its priciest tier will cost twice as much as what youre currently paying. But theres a way to slash that in half: If you can secure a year of … [+3232 chars]"
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Cameron Faulkner",
+      "title": "Hori Split Pad Pro Attachment review: I'm not attached - The Verge",
+      "description": "Too few new features with a high $79 price.",
+      "url": "https://www.theverge.com/23007610/hori-split-pad-pro-attachment-nintendo-switch-price-features-review",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/1rsrS7LjCn3HZ8O6OpOWFOJAgWs=/0x146:2040x1214/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23334097/cfaulkner_141231_5091_0004.jpg",
+      "publishedAt": "2022-04-04T18:00:00Z",
+      "content": "The pads are still an essential accessory but the attachment? Not so much\r\nIf you buy something from a Verge link, Vox Media may earn a commission. See our ethics statement.\r\nThe Attachment bundles i… [+4265 chars]"
+    },
+    {
+      "source": {
+        "id": "engadget",
+        "name": "Engadget"
+      },
+      "author": "https://www.engadget.com/about/editors/jon-fingas",
+      "title": "DJI made a $329 clip-on mic for your vlogs - Engadget",
+      "description": "DJI has unveiled a clip-on mic that's built for vlogs — and charges like your earbuds..",
+      "url": "https://www.engadget.com/dji-mic-clip-on-lapel-175000217.html",
+      "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-04/6f478bc0-b43c-11ec-be9f-fea94a95f627",
+      "publishedAt": "2022-04-04T17:52:53Z",
+      "content": "DJI is better known for its drones and cameras than any of its audio tech, but it's apparently eager to change your mind. The company has released the Mic, its first dedicated audio recording gear, i… [+1022 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "XDA Developers"
+      },
+      "author": "Corbin Davenport",
+      "title": "April 2022 Android security update now available, rolling out to Pixel phones - XDA Developers",
+      "description": "Google has released the April 2022 Android security update, and it's already starting to roll out to Pixel phones and third-party devices.",
+      "url": "https://www.xda-developers.com/april-2022-android-security-update/",
+      "urlToImage": "https://www.xda-developers.com/files/2021/08/Android-Security-Update-Monthly-Patches-Featured-Image_4.png",
+      "publishedAt": "2022-04-04T17:31:00Z",
+      "content": "Google releases a batch of security patches and bug fixes for the Android operating system on a monthly basis, usually on the first Monday of each month. Sure enough, it’s the first Monday of April, … [+3440 chars]"
+    },
+    {
+      "source": {
+        "id": "polygon",
+        "name": "Polygon"
+      },
+      "author": "Toussaint Egan",
+      "title": "New Return to Monkey Island game will release in 2022 - Polygon",
+      "description": "A Lucasarts classic gets a new sequel courtesy of Lucasfilm Games. Return to Monkey Island will release in 2022 and be directed by series creator Ron Gilbert. Dominic Armato will once again voice Guybrush Threepwood.",
+      "url": "https://www.polygon.com/gaming/23010107/return-to-monkey-island-release-2022",
+      "urlToImage": "https://cdn.vox-cdn.com/thumbor/nQjGsVKRsHdhK-D4LptyekV9BJY=/0x38:1920x1043/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23366629/FPgtO28WUAM5a0j.jpg",
+      "publishedAt": "2022-04-04T17:05:47Z",
+      "content": "An April Fools Day announcement was actually legit"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "MacRumors"
+      },
+      "author": "Joe Rossignol",
+      "title": "Five Years Ago Today, Apple's Uncharacteristic Apology Set the Stage for the Mac's Renaissance - MacRumors",
+      "description": "Five years ago, the Mac lineup was in a bad state. Over three years had passed since Apple redesigned the Mac Pro with a sleek but constrained...",
+      "url": "https://www.macrumors.com/2022/04/04/apple-apology-to-mac-pro-users-five-years-ago/",
+      "urlToImage": "https://images.macrumors.com/t/wZ5p7zCM6038bAuleeWf3Z70L88=/1600x/article-new/2022/04/apple-mac-roundtable.jpeg",
+      "publishedAt": "2022-04-04T16:40:00Z",
+      "content": "Five years ago, the Mac lineup was in a bad state. Over three years had passed since Apple redesigned the Mac Pro with a sleek but constrained \"trash can\" enclosure, while the iMac, MacBook Air, and … [+2661 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Nintendo Life"
+      },
+      "author": "Ollie Reynolds",
+      "title": "Zany RPG 'Nobody Saves The World' Coming To Switch This Month - Nintendo Life",
+      "description": "Local co-op included day one",
+      "url": "https://www.nintendolife.com/news/2022/04/zany-rpg-nobody-saves-the-world-coming-to-switch-this-month",
+      "urlToImage": "https://images.nintendolife.com/38effb586c89c/1280x720.jpg",
+      "publishedAt": "2022-04-04T16:30:00Z",
+      "content": "Subscribe to Nintendo Life on YouTube\r\nDrinkbox Studios - known for its 'Metroidvania' titles Guacamelee! and Guacamelee 2! - has announced that the top-down RPG Nobody Saves the World will be coming… [+2008 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "9to5google.com"
+      },
+      "author": null,
+      "title": "Pixel Watch wish list: Things we’d love to see on Google’s first wearable [Video] - 9to5Google",
+      "description": "In 2022, Google is finally set to unveil it's first wearable, which has us dreaming up a Pixel watch wish list of things we'd love to see.",
+      "url": "https://9to5google.com/2022/04/04/pixel-watch-wish-list/",
+      "urlToImage": "https://i0.wp.com/9to5google.com/wp-content/uploads/sites/4/2022/04/Pixel-Watch-faces-3.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1",
+      "publishedAt": "2022-04-04T16:15:00Z",
+      "content": "In 2022, it looks very much like we’ll finally see a Google-made smartwatch. It seems as though the Pixel Watch has been in the pipeline for a number of years, but all evidence points to a launch at … [+9211 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Rock Paper Shotgun"
+      },
+      "author": "Kaan Serin",
+      "title": "Halo Infinite's players are frustrated, and streamers are feeling the pinch - Rock Paper Shotgun",
+      "description": "Halo Infinite is struggling to maintain an audience and community creators have told us about their frustrations and challenges.",
+      "url": "https://www.rockpapershotgun.com/halo-infinites-players-are-frustrated-and-streamers-are-feeling-the-pinch",
+      "urlToImage": "https://assets2.rockpapershotgun.com/halo-infinite-chief.jpg/BROK/thumbnail/1600x900/format/jpg/quality/80/halo-infinite-chief.jpg",
+      "publishedAt": "2022-04-04T16:10:47Z",
+      "content": "Halo Infinite officially launched last December, receiving rave reviews from critics and fans - including Brendan’s review here at RPS. It peaked with over 200k viewers on Twitch. And for many conten… [+7827 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "How-To Geek"
+      },
+      "author": "Joe Fedewa",
+      "title": "What Is Microsoft Phone Link on Windows 10 and 11? - How-To Geek",
+      "description": "Many people use a Windows PC and Android phone throughout the day. Making these two platforms work together is important, which is where Microsoft Phone Link—formerly known as “Your Phone”—comes in. We’ll explain why you should use it.",
+      "url": "https://www.howtogeek.com/795474/what-is-microsoft-phone-link/",
+      "urlToImage": "https://www.howtogeek.com/wp-content/uploads/2022/04/Microsoft-Phone-Link-logo.png?height=200p&trim=2,2,2,2",
+      "publishedAt": "2022-04-04T16:00:44Z",
+      "content": "Microsoft\r\nMany people use a Windows PC and Android phone throughout the day. Making these two platforms work together is important, which is where Microsoft Phone Link—formerly known as “Your Phone”… [+5083 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Kotaku"
+      },
+      "author": "Isaiah Colbert",
+      "title": "Kirby Is Officially The Only Nintendo Character To Win A Grammy Award - Kotaku",
+      "description": "We can officially call it the 2022 Grammy Awards (Kirby's Version)",
+      "url": "https://kotaku.com/kirby-grammy-award-8-bit-big-band-meta-knights-revenge-1848745709",
+      "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/d4cc0853c2b3a081148b6202ba44e407.jpg",
+      "publishedAt": "2022-04-04T16:00:00Z",
+      "content": "Dont let your memes be dreams gamers, because last night Kirby, in the year of our lord 2022, won a Grammy.\r\nOK, technically, Kirby himself didnt win a Grammy. That honor goes to Charlie Rosen and Ja… [+1568 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Wccftech"
+      },
+      "author": "Jason R. Wilson",
+      "title": "AMD Radeon Software 22.3.1 drivers manipulates CPU settings without user input - Wccftech",
+      "description": "The latest Adrenalin Software drivers changed users' CPU settings without their knowledge, raising questions about transparency with AMD.",
+      "url": "https://wccftech.com/amd-radeon-software-22-3-1-drivers-manipulates-cpu-settings-without-user-input/",
+      "urlToImage": "https://cdn.wccftech.com/wp-content/uploads/2022/04/AMD-Software.png",
+      "publishedAt": "2022-04-04T15:56:39Z",
+      "content": "Igor Wallossek recently reported that the AMD Adrenalin graphics card software (version 22.3.1) changed users' CPU settings without their knowledge, raising questions about transparency with AMD. Igo… [+2704 chars]"
+    }
+  ]
+}
