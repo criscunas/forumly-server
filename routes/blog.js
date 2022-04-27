@@ -12,7 +12,7 @@ router
   .delete(authenticate, blogController.deleteBlogPost);
 
 router
-  .route('/:id')
+  .route('/find/:id')
   .get(blogController.getBlog)
 
 router
@@ -22,5 +22,9 @@ router
 router
   .route('/comment/delete')
   .delete(authenticate, blogCommentController.deleteBlogComment)
+
+router  
+  .route('/all')
+  .get(blogController.allBlogs)
 
 module.exports = router;
