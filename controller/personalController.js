@@ -2,11 +2,17 @@ const Personal = require('../helpers/personals');
 
 exports.postStatus = (req,res) => {
 
-  const {personal_post, id} = req.body
+  const {personal_post} = req.body
+
+  if (!personal_post) {
+    res.json({
+      err: "Post Missing",
+    });
+  }
 
   const postObj = {
     personal_post : personal_post,
-    user_account_id: id
+    user_account_id: req.user.id
   }
 
   Personal
@@ -23,16 +29,19 @@ exports.postStatus = (req,res) => {
 
 exports.deleteStatus = (req,res) => {
   
-  const {id, user_account_id } = req.body;
+  const {id} = req.body;
 
   let obj = {
     id: id,
-    user_account_id : user_account_id
+    user_account_id : req.user.id
   }
 
   Personal
     .deleteStatus(obj)
     .then(() => {
       res.send('Deleted Status')
+    })
+    .catch(err => {
+      res.json(err)
     })
 }

@@ -4,6 +4,18 @@ const BlogComments = require('../helpers/blogComments');
 exports.newBlogPost = (req, res) => {
   const { title, content } = req.body;
 
+  if (!title) {
+    res.json({
+      err: "Title Missing",
+    });
+  }
+
+  if (!content) {
+    res.json({
+      err: "Content missing",
+    });
+  }
+
   const blogObj = {
     title : title,
     content: content, 
@@ -49,4 +61,17 @@ exports.getBlog = async (req,res) => {
     post : blog,
     comments : comments,
   })
+}
+
+exports.allBlogs = (req,res) => {
+
+  Blogs.allBlogs()
+    .then(data => {
+      res.json(data)
+    })
+    .catch(err => {
+      res.json({
+        err:err
+      })
+    })
 }

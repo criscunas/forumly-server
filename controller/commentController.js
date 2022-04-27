@@ -5,6 +5,19 @@ exports.createPostComment = (req,res) => {
 
   const {comment_body, post_id} = req.body;
 
+  if (!post_id) {
+    res.json({
+      err: "Post id Missing",
+    });
+  }
+
+  if (!comment_body) {
+    res.json({
+      err: "Comment body missing",
+    });
+  }
+
+
   let obj = {
     comment_body: comment_body,
     user_account_id: req.user.id,
