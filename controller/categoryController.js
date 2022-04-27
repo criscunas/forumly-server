@@ -1,6 +1,22 @@
 const knex = require("../db");
 const category = require('../helpers/category');
 
+
+exports.getPostFromCategory = async (req,res) => {
+  
+  const {id} = req.params;
+
+  const title = await knex('category').where('id', '=', id)
+
+  const posts = await category.getPostFromCategory(id)
+
+  res.json({
+    title : title[0].title,
+    posts:posts
+  });
+
+}
+
 exports.getCategories = (req,res) => {
 
   knex('category')
@@ -16,21 +32,39 @@ exports.createCategoryPost = (req,res) => {
 
   const {category_id, title, post} = req.body;
 
+  if (!post) {
+    res.json({
+      err: "Post Missing",
+    });
+  }
+
+  if (!category_id) {
+    res.json({
+      err: "id missing",
+    });
+  }
+
+  if (!title) {
+    res.json({
+      err: "Title Missing",
+    });
+  }
+
+
   let obj = {
     category_id : category_id,
     title : title, 
     post: post,
-    user_account_id: req.user.id,
+    user_account_id: req.user.id
   }
-
+  
   category
     .createCategoryPost(obj)
-    .then(() => {
-      res.status(201).send('Post created')
-    })
     .catch(err => {
       res.json(err)
     })
+
+  res.send('Posted')
 }
 
 exports.deleteCategoryPost = (req, res) => {
@@ -58,6 +92,19 @@ exports.deleteCategoryPost = (req, res) => {
 exports.createCategoryComment = (req, res) => {
   const { post_id, comment_body} = req.body;
 
+  if (!post_id) {
+    res.json({
+      err: "Post id Missing",
+    });
+  }
+
+  if (!comment_body) {
+    res.json({
+      err: "Comment body missing",
+    });
+
+  }
+
   let obj = {
     comment_body: comment_body,
     post_id: post_id,
@@ -75,11 +122,11 @@ exports.createCategoryComment = (req, res) => {
 };
 
 exports.deleteCategoryComment = (req, res) => {
-  const {comment_id} = req.body;
+  const {id} = req.body;
 
   let obj = {
     user_account_id: req.user.id,
-    id : comment_id,
+    id : id,
   };
 
   category
@@ -93,3 +140,19 @@ exports.deleteCategoryComment = (req, res) => {
       });
     });
 };
+
+exports.getCategoryComments = (req,res) => {
+  
+  const {id} = req.params
+
+  category  
+    .getCategorizedComments(id)
+    .then(data => {
+      res.json(data)
+    })
+    .catch(err => {
+      res.json({
+        err : err
+      })
+    })
+}

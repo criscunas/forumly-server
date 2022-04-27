@@ -5,4 +5,9 @@ const postStatus = (obj) => knex(tableName).insert(obj)
 
 const deleteStatus = (obj) => knex(tableName).where(obj).del()
 
-module.exports = {postStatus,deleteStatus}
+const getPersonals = (id) => 
+  knex(tableName)
+  .where('user_account_id', "=", id)
+  .orderBy('created', 'desc')
+
+module.exports = {postStatus,deleteStatus, getPersonals}

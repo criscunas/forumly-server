@@ -32,10 +32,10 @@ exports.createThread = (req, res) => {
 
 exports.deleteThread = (req,res) => {
   
-  const {thread_id} = req.body;
+  const {id} = req.body;
 
   let threadObj = {
-    id : thread_id ,
+    id : id ,
     user_account_id: req.user.id
   }
 

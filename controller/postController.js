@@ -3,6 +3,18 @@ const Posts = require("../helpers/posts");
 exports.createPost = (req, res) => {
   const { content, thread_id } = req.body;
 
+  if (!content) {
+    res.json({
+      err: "Content Missing",
+    });
+  }
+
+  if (!thread_id) {
+    res.json({
+      err: "ID Missing",
+    });
+  }
+
   let newPost = {
     content: content,
     user_account_id: req.user.id,
@@ -23,11 +35,11 @@ exports.createPost = (req, res) => {
 
 exports.deletePost = (req,res) => {
   
-  const {post_id} = req.body;
+  const {id} = req.body;
 
   let obj = {
     user_account_id: req.user.id,
-    id: post_id
+    id: id
   }
   
   Posts

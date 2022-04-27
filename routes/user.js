@@ -19,12 +19,35 @@ router
   .post(authenticate, userController.userBio)
 
 router
-  .route('/threads')
-  .get(authenticate, userController.getUserThreads)
+  .route('/:username/threads')
+  .get(userController.getUserThreads)
   
 router
-  .route('/posts')
-  .get(authenticate, userController.getUserPosts)
+  .route('/:username/posts')
+  .get(userController.getUserPosts)
 
+router
+  .route('/:username/blogs')
+  .get(userController.getUserBlogs)
+
+router
+  .route('/feed')
+  .get(authenticate, userController.getUserFeed)
+
+router
+  .route("/public/:username")
+  .get(userController.getPublicProfile)
+
+router
+  .route("/:username/personals")
+  .get(userController.getUserPersonals);
+
+router
+  .route("/uploadImage")
+  .post(authenticate,userController.uploadImage)
+
+router 
+  .route("/relationships")
+  .get(authenticate, userController.getFollowRelationships)
 
 module.exports = router;

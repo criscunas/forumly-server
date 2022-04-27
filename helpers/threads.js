@@ -12,7 +12,8 @@ const getThread = (id) =>
       "threads.thread_subject",
       "threads.initial_post",
       "threads.created",
-      "users.username"
+      "users.username",
+      "users.img_path"
     )
     .from(threadTable)
     .where("id", id)
@@ -43,6 +44,7 @@ const getThreadContent = (id) =>
       "posts.created",
       "posts.id",
       "users.username",
+      "users.img_path",
       "posts.user_account_id"
     )
     .from(threadTable + " " + "as t")

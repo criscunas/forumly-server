@@ -22,5 +22,14 @@ router
   .route("/comment/delete")
   .delete(authenticate, categoryController.deleteCategoryComment)
 
+router
+  .route("/:id")
+  .get(categoryController.getPostFromCategory)
+
+router
+  .route("/comments/:id")
+  .get(categoryController.getCategoryComments);
+
+
 
 module.exports = router;

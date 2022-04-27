@@ -13,9 +13,14 @@ const getBlog = (id) => knex(blogTable).where({
 
 const getBlogUser = (id) => 
   knex(userTable)
-  .select('users.username')
+  .select('users.username', 'users.img_path')
   .where({user_id : id})
 
+const getBlogsFromUser = (id) => 
+  knex(blogTable)
+  .where("user_account_id", "=", id)
 
+const allBlogs = () => 
+  knex(blogTable)
 
-module.exports = { createBlog, deleteBlog, getBlog, getBlogUser};
+module.exports = { createBlog, deleteBlog, getBlog, getBlogUser, getBlogsFromUser, allBlogs};
