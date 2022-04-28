@@ -9,7 +9,7 @@ module.exports = {
   development: {
     client: "mysql",
     connection: {
-      host: 3306,
+      host: "aws-digi.cqrtseevafuu.us-east-1.rds.amazonaws.com",
       user: 'admin',
       password: 'Kayla1996!',
       database: "digi",
