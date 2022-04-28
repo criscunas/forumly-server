@@ -1,11 +1,15 @@
+const axios = require('axios');
 require('dotenv').config();
 const express = require("express");
 const cors = require("cors");
 const app = express();
+
 let SERVER_PORT = process.env.PORT;
 
 app.use(cors());
 app.use(express.json());
+
+
 
 
 const userRoute = require("./routes/user");
@@ -28,6 +32,20 @@ app.use("/categories", categoryRoute);
 
 
 
+
 app.listen(SERVER_PORT, () => {
   console.log(`listening at ${SERVER_PORT}`);
 });
+
+
+app.get("/", (req, res) => {
+  axios
+    .get("https://jsonplaceholder.typicode.com/users")
+    .then(function (response) {
+      res.json(response.data);
+    })
+    .catch(function (error) {
+      res.json("Error occured!");
+    });
+});
+
