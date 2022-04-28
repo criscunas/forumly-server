@@ -37,7 +37,6 @@ app.listen(SERVER_PORT, () => {
   console.log(`listening at ${SERVER_PORT}`);
 });
 
-
 app.get("/", (req, res) => {
   axios
     .get("https://jsonplaceholder.typicode.com/users")
