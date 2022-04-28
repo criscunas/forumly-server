@@ -10,10 +10,10 @@ module.exports = {
   development: {
     client: "mysql",
     connection: {
-      host: HOST,
+      host: HOST || 3000,
       user: 'admin',
       password: 'Kayla1996!',
-      database: DB,
+      database: "digi",
       charset: "utf8",
     },
   },
