@@ -8,9 +8,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-
-
-
 const userRoute = require("./routes/user");
 const threadRoute = require('./routes/thread')
 const postRoute = require("./routes/post");
@@ -30,6 +27,6 @@ app.use("/newsfeed", newsRoute);
 app.use("/categories", categoryRoute);
 
 
-
+module.exports = app;
 
 
