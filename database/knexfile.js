@@ -18,23 +18,6 @@ module.exports = {
       password: "Kayla1996!",
       database: "digi",
       charset: "utf8",
-    },
-    pool : {
-      afterCreate : function(conn,done) {
-        conn.query('SELECT * FROM users',function (err) {
-        if (err) {
-          console.log(err)
-          done(err, conn);
-        } else {
-          // do the second query...
-          console.log('connected')
-          done(err,conn)
-            // if err is not falsy, connection is discarded from pool
-            // if connection aquire was triggered by a query the error is passed to query promise
-          
-          }
-        })
-      }
     }
   },
 };
