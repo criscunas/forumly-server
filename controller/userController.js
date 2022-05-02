@@ -9,7 +9,7 @@ const Blog = require("../helpers/blogs");
 
 const jwt = require("jsonwebtoken");
 
-const JWT_S = process.env.JWTS;
+const JWT_S = 'password';
 
 
 
