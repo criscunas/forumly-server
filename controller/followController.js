@@ -47,5 +47,33 @@ exports.unfollowUser = (req,res) => {
         err : err
       })
     })
-  
+}
+
+exports.getFollowers = async (req,res) => {
+
+  const id = req.user.id;
+
+  const followers = await 
+  Following.getUserFollowers(id)
+  .catch(err => {
+    res.json({
+      err:err
+    })
+  })
+
+  const following = await 
+  Following.getUserFollowing(id)
+  .catch(err => {
+    res.json({
+      err:err
+    })
+  })
+
+  const obj = {
+    following : following,
+    followers : followers
+  }
+
+  res.json(obj)
+
 }

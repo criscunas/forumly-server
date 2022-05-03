@@ -10,4 +10,8 @@ router
   .route("/unfollow")
   .delete(authenticate, followController.unfollowUser);
 
+router
+  .route("/get")
+  .get(authenticate, followController.getFollowers)
+
 module.exports = router;
