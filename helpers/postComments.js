@@ -9,4 +9,18 @@ const deletePostComment = (obj) =>
   .where(obj)
   .del()
 
-module.exports = {createPostComment, deletePostComment}
+const getPostComments = (id) =>
+  knex
+    .select(
+      "postComments.comment_body",
+      "postComments.created",
+      "users.username",
+      "users.img_path"
+    )
+    .from(commentTable)
+    .where("post_id", id)
+    .join("users", function () {
+      this.on("postComments.user_account_id", "user_id");
+    });
+
+module.exports = {createPostComment, deletePostComment, getPostComments}

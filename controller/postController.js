@@ -1,4 +1,5 @@
 const Posts = require("../helpers/posts");
+const PostComments = require('../helpers/postComments')
 
 exports.createPost = (req, res) => {
   const { content, thread_id } = req.body;
@@ -49,4 +50,33 @@ exports.deletePost = (req,res) => {
         success: 'Deleted Post'
       })
     })
+}
+
+exports.getPost = (req,res) => {
+
+  const {id} = req.params
+
+  Posts
+    .getPost(id)
+    .then((data) => {
+      res.json(data)
+    })  
+    .catch((err) => {
+      res.json(err)
+    })
+}
+
+exports.getPostComments = (req,res) => {
+  
+  const {id} = req.params;
+
+  PostComments  
+    .getPostComments(id)
+    .then((data) => {
+      res.json(data)
+    })
+    .catch((err) => {
+      res.json(err)
+    })
+
 }

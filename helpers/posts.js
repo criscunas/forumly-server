@@ -8,4 +8,20 @@ const deleteUserPost = (obj) =>
   .where(obj)
   .del()
 
-module.exports = { createPost, deleteUserPost };
+const getPost = (id) =>
+  knex
+    .select(
+      "posts.content",
+      "posts.id",
+      "posts.created",
+      "users.username",
+      "users.img_path",
+    )
+    .from(tableName)
+    .where("id", id)
+    .join("users", function () {
+      this.on("posts.user_account_id", "user_id");
+    });
+
+
+module.exports = { createPost, deleteUserPost, getPost };
