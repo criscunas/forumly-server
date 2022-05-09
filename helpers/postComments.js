@@ -14,6 +14,7 @@ const getPostComments = (id) =>
     .select(
       "postComments.comment_body",
       "postComments.created",
+      "postComments.id",
       "users.username",
       "users.img_path"
     )
