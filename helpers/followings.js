@@ -43,5 +43,10 @@ const getUserFollowers = (id) =>
     );
   })
   
+const getPublicFollowers = (obj) => 
+  knex(followingTable)
+  .where(obj)
 
-module.exports = {findFollow, createUnfollow, createFollow, getUserFollowing, getUserFollowers}
+
+
+module.exports = {findFollow, createUnfollow, createFollow, getUserFollowing, getUserFollowers, getPublicFollowers}

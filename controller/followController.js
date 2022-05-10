@@ -77,3 +77,23 @@ exports.getFollowers = async (req,res) => {
   res.json(obj)
 
 }
+
+exports.publicFollowers = async (req, res) => {
+  
+  const {id} = req.params;
+
+  const obj = {
+    user_account_id : id
+  }
+
+  Following
+    .getPublicFollowers(obj)
+    .then(data => {
+      res.json(data)
+    })
+    .catch((err) => {
+      res.json({
+        err: err,
+      });
+  });
+};

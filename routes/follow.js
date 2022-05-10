@@ -14,4 +14,8 @@ router
   .route("/get")
   .get(authenticate, followController.getFollowers)
 
+router
+  .route("/public/:id")
+  .get(followController.publicFollowers)
+
 module.exports = router;

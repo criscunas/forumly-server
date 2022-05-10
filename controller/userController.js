@@ -213,16 +213,25 @@ exports.getPublicProfile = async (req,res) => {
 
   const {username} = req.params;
 
-  
   const user = await User.getPublicProfile(username)
   
   const status = await Personal.getPersonals(user[0].user_id)
+
+  const followings = await Following.getPublicFollowers({
+    follower_id: user[0].user_id
+  })
+
+  const followers = await Following.getPublicFollowers({
+    user_account_id: user[0].user_id
+  })
 
   await Blog.getBlogsFromUser(user[0].user_id).then((data => {
     res.json({
       user: user,
       status: status,
-      blogs: data
+      blogs: data,
+      followers: followers.length,
+      followings: followings.length
     });
   }))
 
