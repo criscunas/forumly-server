@@ -34,7 +34,8 @@ const getUserFollowers = (id) =>
   .select(
     "users.username",
     "users.username",
-    "users.bio"
+    "users.bio",
+    "users.img_path"
   )
   .join(usersTable, function () {
     this.on("followings.user_account_id", id).andOn(
