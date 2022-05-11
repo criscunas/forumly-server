@@ -1,6 +1,6 @@
 const knex = require("../db");
 const Thread = require("../helpers/threads");
-
+const Comment = require('../helpers/postComments');
 
 exports.createThread = (req, res) => {
   const { thread_subject, initial_post} = req.body;
@@ -85,8 +85,16 @@ exports.allThreadPosts = async (req,res) => {
       })
     })
 
+  const comments = await Comment
+    .getThreadComments(id)
+    .catch(err => {
+      res.json(err)
+    })
+
   res.json({
     thread : main, 
-    posts: posts
+    posts: posts,
+    comments: comments
   })
 }
+

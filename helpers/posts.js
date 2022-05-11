@@ -16,6 +16,7 @@ const getPost = (id) =>
       "posts.created",
       "users.username",
       "users.img_path",
+      "posts.thread_id"
     )
     .from(tableName)
     .where("id", id)

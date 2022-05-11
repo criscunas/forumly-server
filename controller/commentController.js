@@ -3,7 +3,7 @@ const postComments = require("../helpers/postComments");
 
 exports.createPostComment = (req,res) => {
 
-  const {comment_body, post_id} = req.body;
+  const {comment_body, post_id, thread_id} = req.body;
 
   if (!post_id) {
     res.json({
@@ -17,11 +17,19 @@ exports.createPostComment = (req,res) => {
     });
   }
 
+  if (!thread_id) {
+    res.json({
+      err: "Thread id missing."
+    });
+  }
+
+
 
   let obj = {
     comment_body: comment_body,
     user_account_id: req.user.id,
-    post_id: post_id
+    post_id: post_id,
+    thread_id: thread_id
   }
 
   postComments

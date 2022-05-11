@@ -18,4 +18,6 @@ router
   .route('/:id')
   .get(threadController.allThreadPosts)
 
+
+
 module.exports = router;

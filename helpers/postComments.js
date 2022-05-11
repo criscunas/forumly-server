@@ -24,4 +24,8 @@ const getPostComments = (id) =>
       this.on("postComments.user_account_id", "user_id");
     });
 
-module.exports = {createPostComment, deletePostComment, getPostComments}
+const getThreadComments = (id) => 
+    knex(commentTable)
+    .where("thread_id", id)
+
+module.exports = {createPostComment, deletePostComment, getPostComments, getThreadComments}
