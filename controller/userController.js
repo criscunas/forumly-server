@@ -5,13 +5,11 @@ const User = require("../helpers/users");
 const Following = require("../helpers/followings");
 const Personal = require("../helpers/personals");
 const Blog = require("../helpers/blogs");
-
+const Post = require("../helpers/posts");
 
 const jwt = require("jsonwebtoken");
 
-const JWT_S = 'password';
-
-
+const JWT_S = "password";
 
 exports.addUser = (req, res) => {
   if (!req.body.username || !req.body.email || !req.body.hashed_password) {
@@ -24,7 +22,7 @@ exports.addUser = (req, res) => {
     username: req.body.username,
     email: req.body.email,
     hashed_password: hash,
-  }
+  };
 
   knex
     .from("users")
@@ -34,34 +32,32 @@ exports.addUser = (req, res) => {
       if (data.length !== 0) {
         return res.status(400).send("errorMessage : invalid");
       } else {
-        knex('users')
-        .insert(obj)
-        .then(() => {
-          knex('users')
-          .where({username: obj.username})
-          .first()
-          .then(user => {
-
-            const token = jwt.sign(
-              {username: user.username, id: user.user_id} ,
-              JWT_S,
-              {expiresIn: "24hr"}
-            );
-            res.json({
-              username: user.username,
-              auth: token,
-            })
-          })
-          .catch(err => {
-            res.json({
-              err:err
-            })
-          })
-        })
+        knex("users")
+          .insert(obj)
+          .then(() => {
+            knex("users")
+              .where({ username: obj.username })
+              .first()
+              .then((user) => {
+                const token = jwt.sign(
+                  { username: user.username, id: user.user_id },
+                  JWT_S,
+                  { expiresIn: "24hr" }
+                );
+                res.json({
+                  username: user.username,
+                  auth: token,
+                });
+              })
+              .catch((err) => {
+                res.json({
+                  err: err,
+                });
+              });
+          });
       }
-    })
-  };
-
+    });
+};
 
 exports.login = (req, res) => {
   const { username, hashed_password } = req.body;
@@ -94,8 +90,8 @@ exports.login = (req, res) => {
         { username: user.username, id: user.user_id },
         JWT_S,
         { expiresIn: "24h" }
-        );
-      
+      );
+
       res.json({
         username: user.username,
         auth: token,
@@ -108,33 +104,50 @@ exports.login = (req, res) => {
 };
 
 exports.getUserAll = async (req, res) => {
-  const { username } = req.params;
+  // const { username } = req.params;
+  const id = req.user.id;
 
-  const userMain = await User.findUser(username).then((user) => {
-    delete user.hashed_password;
-    delete user.email;
+  // const userMain = await User.findUser(username).then((user) => {
+  //   delete user.hashed_password;
+  //   delete user.email;
 
-    return user;
-  });
+  //   return user;
+  // });
 
-  const userFollowing = await Following.getUserFollowing(userMain[0].user_id)
+  let obj = {
+    user_account_id: id,
+  };
 
-  const userFollowers = await Following.getUserFollowers(userMain[0].user_id)
+  const userFollowing = await Following.getUserFollowing(id);
+
+  const userFollowers = await Following.getUserFollowers(id);
+
+  const userPersonals = await User.getUserStatus(id);
+
+  const userPosts = await User.userPosts(id);
+
+  const userBlogs = await User.userBlogs(id);
+
+  const userThreads = await User.userThreads(obj);
 
   res.json({
     user: {
       username: userMain[0].username,
       bio: userMain[0].bio,
       img_path: userMain[0].img_path,
-      created: userMain[0].created
+      created: userMain[0].created,
     },
-    following : userFollowing,
-    followers : userFollowers
+    following: userFollowing,
+    followers: userFollowers,
+    personals: userPersonals,
+    posts: userPosts,
+    threads: userThreads,
+    blog: userBlogs,
   });
 };
 
 exports.userBio = (req, res) => {
-  const {bio} = req.body;
+  const { bio } = req.body;
 
   if (!bio) {
     res.json({
@@ -153,50 +166,45 @@ exports.userBio = (req, res) => {
     });
 };
 
-exports.getUserThreads = async (req,res) => {
+exports.getUserThreads = async (req, res) => {
+  const { username } = req.params;
 
-  const {username} = req.params;
-
-  const user = await User.findUser(username)
+  const user = await User.findUser(username);
 
   let obj = {
-    user_account_id : user[0].user_id
-  }
+    user_account_id: user[0].user_id,
+  };
 
-  User
-  .userThreads(obj)
-  .then(data => {
-    res.json(data)
-  })
-  .catch(err => {
-    res.json({
-    error: err
+  User.userThreads(obj)
+    .then((data) => {
+      res.json(data);
     })
-  })
-} 
+    .catch((err) => {
+      res.json({
+        error: err,
+      });
+    });
+};
 
-exports.getUserFeed = (req,res) => {
-
+exports.getUserFeed = (req, res) => {
   const id = req.user.id;
 
-  User
-    .userFeed(id)
+  User.userFeed(id)
     .then((feed) => {
-      res.json(feed)
+      res.json(feed);
     })
-    .catch(err => {
+    .catch((err) => {
       res.json({
-        error : err
-      })
-    })
-}
+        error: err,
+      });
+    });
+};
 
 exports.getUserPosts = async (req, res) => {
+  const { username } = req.params;
 
-  const {username} = req.params;
+  const user = await User.findUser(username);
 
-  const user = await User.findUser(username)
-  
   User.userPosts(user[0].user_id)
     .then((data) => {
       res.json(data);
@@ -206,36 +214,33 @@ exports.getUserPosts = async (req, res) => {
         error: err,
       });
     });
-}; 
+};
 
+exports.getPublicProfile = async (req, res) => {
+  const { username } = req.params;
 
-exports.getPublicProfile = async (req,res) => {
+  const user = await User.getPublicProfile(username);
 
-  const {username} = req.params;
-
-  const user = await User.getPublicProfile(username)
-  
-  const status = await Personal.getPersonals(user[0].user_id)
+  const status = await Personal.getPersonals(user[0].user_id);
 
   const followings = await Following.getPublicFollowers({
-    follower_id: user[0].user_id
-  })
+    follower_id: user[0].user_id,
+  });
 
   const followers = await Following.getPublicFollowers({
-    user_account_id: user[0].user_id
-  })
+    user_account_id: user[0].user_id,
+  });
 
-  await Blog.getBlogsFromUser(user[0].user_id).then((data => {
+  await Blog.getBlogsFromUser(user[0].user_id).then((data) => {
     res.json({
       user: user,
       status: status,
       blogs: data,
       followers: followers.length,
-      followings: followings.length
+      followings: followings.length,
     });
-  }))
-
-}
+  });
+};
 
 exports.getUserBlogs = async (req, res) => {
   const { username } = req.params;
@@ -253,28 +258,23 @@ exports.getUserBlogs = async (req, res) => {
     });
 };
 
+exports.getUserPersonals = async (req, res) => {
+  const { username } = req.params;
 
-exports.getUserPersonals = async (req,res) => {
-  
-  const {username} = req.params
+  const user = await User.findUser(username);
 
-
-  const user = await User.findUser(username)
-
-  Personal
-    .getPersonals(user[0].user_id)
-    .then(data => {
-      res.json(data)
+  Personal.getPersonals(user[0].user_id)
+    .then((data) => {
+      res.json(data);
     })
-    .catch(err => {
+    .catch((err) => {
       res.json({
-        error :err
-      })
-    })
-}
+        error: err,
+      });
+    });
+};
 
-exports.uploadImage = (req,res) => {
-
+exports.uploadImage = (req, res) => {
   const { img_path } = req.body;
 
   if (!img_path) {
@@ -294,27 +294,25 @@ exports.uploadImage = (req,res) => {
     .catch((error) => {
       console.log(error);
     });
-}
+};
 
-
-exports.getFollowRelationships = async (req,res) => {
-
+exports.getFollowRelationships = async (req, res) => {
   const id = req.user.id;
 
-  const followers = await Following
-  .getUserFollowers(id)
-  .then(data => {return data})
-  .catch(err => res.json({err : err}) )
+  const followers = await Following.getUserFollowers(id)
+    .then((data) => {
+      return data;
+    })
+    .catch((err) => res.json({ err: err }));
 
-  const following = await Following
-  .getUserFollowing(id)
-  .then(data => {return data})
-  .catch(err => res.json({err : err}) )
-
+  const following = await Following.getUserFollowing(id)
+    .then((data) => {
+      return data;
+    })
+    .catch((err) => res.json({ err: err }));
 
   res.json({
     followers,
-    following
-  })
-
-}
+    following,
+  });
+};
