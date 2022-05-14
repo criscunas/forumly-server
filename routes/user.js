@@ -11,7 +11,7 @@ router
   .post(userController.login)
 
 router
-  .route("/profile")
+  .route("/profile/:username")
   .get(authenticate, userController.getUserAll)
 
 router

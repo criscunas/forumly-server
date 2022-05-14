@@ -104,15 +104,15 @@ exports.login = (req, res) => {
 };
 
 exports.getUserAll = async (req, res) => {
-  // const { username } = req.params;
+  const { username } = req.params;
   const id = req.user.id;
 
-  // const userMain = await User.findUser(username).then((user) => {
-  //   delete user.hashed_password;
-  //   delete user.email;
+  const userMain = await User.findUser(username).then((user) => {
+    delete user.hashed_password;
+    delete user.email;
 
-  //   return user;
-  // });
+    return user;
+  });
 
   let obj = {
     user_account_id: id,
