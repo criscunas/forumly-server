@@ -3,7 +3,6 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 
-
 app.use(cors());
 app.use(express.json());
 
@@ -25,12 +24,10 @@ app.use('/follow', followRoute)
 app.use("/newsfeed", newsRoute);
 app.use("/categories", categoryRoute);
 
-
 app.use(function (req, res, next) {
   next(createError(404));
 });
 
-// error handler
 app.use(function (err, req, res, next) {
   res.status(err.status || 500);
   res.json({error : "error"});

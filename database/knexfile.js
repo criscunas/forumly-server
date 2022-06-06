@@ -4,27 +4,21 @@ let DB = process.env.DBNAME;
 let USER = process.env.USER;
 let PSW = process.env.PSW;
 let HOST = process.env.HOST;
-
-
-
+let PORT = process.env.PORT;
 
 module.exports = {
   development: {
     client: "mysql",
     connection: {
-      host: "aws-digi.cqrtseevafuu.us-east-1.rds.amazonaws.com",
-      port: 3306,
-      user: "admin",
-      password: "Kayla1996!",
-      database: "digi",
+      host: HOST,
+      port: PORT,
+      user: USER,
+      password: PSW,
+      database: DB,
       charset: "utf8",
     }
   },
 };
-
-// const knex = require('knex')(configs);
-
-// module.exports = knex;
 
 
 
